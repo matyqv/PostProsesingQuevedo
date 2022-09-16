@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6217665453581970365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7001970482129595484}
+  - component: {fileID: 5608981897445711263}
+  - component: {fileID: -7966309612394519924}
+  m_Layer: 0
+  m_Name: VisionNocturna
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7001970482129595484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6217665453581970365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.89, z: -4.57}
+  m_LocalScale: {x: 53.439014, y: 53.43901, z: 53.43901}
+  m_Children:
+  - {fileID: 8514681480385549168}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5608981897445711263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6217665453581970365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be7a9a87eaed8a47b0f80669ea6176d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  V_rot: 50
+  Tipo: VI
+--- !u!135 &-7966309612394519924
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6217665453581970365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &8187685740168557723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7001970482129595484}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9036383
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.4282965
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -50.719
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+      propertyPath: m_Name
+      value: Vision nocturna
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+--- !u!4 &8514681480385549168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a02ae87cb09b5d47a07b189257c5163, type: 3}
+  m_PrefabInstance: {fileID: 8187685740168557723}
+  m_PrefabAsset: {fileID: 0}
